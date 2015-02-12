@@ -1,8 +1,5 @@
 # CMake script for creating config header file
 
-# grab git details
-include(${FLOW123D_SOURCE_DIR}/CMake/Modules/Flow123d_git_info.cmake)
-
 # write definitions
 MESSAGE (STATUS "CREATING CONFIG.H")
 
